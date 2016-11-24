@@ -27,6 +27,12 @@
             "diagnosticLogging": true,
             "webRoot": "${workspaceRoot}/public",
             "userDataDir": "${workspaceRoot}/out/chrome"
+        }, 
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch js debug",
+            "file": "${workspaceRoot}/public/demo.html"
         }
     ]
 }
